@@ -1,0 +1,27 @@
+{
+  "name": "guide",
+  "version": "1.0.0",
+  "description": "nst-fe guide",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vssue/api-github-v3": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.7",
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "@vuepress/plugin-last-updated": "^1.2.0",
+    "@vuepress/plugin-nprogress": "^1.8.2",
+    "@vuepress/plugin-search": "^1.8.2",
+    "gitalk": "^1.7.2",
+    "prismjs": "^1.19.0",
+    "timeago.js": "^4.0.2",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-permalink-pinyin": "^1.0.0",
+    "vuepress-theme-simple": "^1.2.2"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  }
+}
